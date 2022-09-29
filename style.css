@@ -1,3 +1,133 @@
+/*Ejercicio 1*/
 body{
-    background-color: #5be75b;
+    background-color: #008000;
 }
+
+/*Ejercicio2*/
+
+.amarillo{
+    background-color: #ffff00;
+}
+
+h1{
+    text-align: center;
+    color: #ffff;
+}
+
+
+p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+/*Ejercicio3*/
+ul{
+    text-align: center;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li:nth-child(even){
+   background-color: #7fffd4;
+}
+
+li:nth-child(odd){
+    background-color: #dda0dd;
+}
+
+/*Ejercicio 4*/
+div p{
+    padding: 0%;
+    margin: 0%;
+    background-color: #ffff00;
+}
+
+#div1 p:nth-child(1){
+    font-weight: bold;
+}
+
+#div1 p:nth-child(2){
+font-style: italic;
+}
+
+#div1 p:nth-child(3){
+text-decoration: underline;
+padding-bottom: 1cm;
+}
+
+#div2 p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#div2 p:nth-child(2){
+font-style: italic;
+font-size: 1.5em;
+
+}
+
+#div2 p:nth-child(3){
+text-decoration: underline;
+font-size: 1.5em;
+padding-bottom: 1cm;
+}
+
+#div3 p:nth-child(1){
+    font-weight: bold;
+    color: #FF0000 ;
+}
+
+#div3 p:nth-child(2){
+    font-style: italic;
+    color: #FF0000 ;
+}
+
+#div3 p:nth-child(3){
+    text-decoration: underline;
+    color: #FF0000 ;
+    padding-bottom: 1cm;
+}
+
+#div4 p:nth-child(1){
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    color: blue;
+}
+
+#div4 p:nth-child(2){
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2em;
+    color: blue;
+}
+
+#div4 p:nth-child(3){
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 2em;
+    color: blue;
+}
+
+#div4 p:nth-child(4){
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 2em;
+    color: blue;
+}
+
+/*Ejercicio 5*/
+a{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+/*Ejercicio 6 (Index)*/
+#nosubrayar a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
